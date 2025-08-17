@@ -93,7 +93,7 @@ body{
     background-color: #aaa;
     border-radius: 5px;
     padding: 5px;
-    position: absolute;
+    /* position: absolute; */
     /* bottom: 0; */
 }
 
