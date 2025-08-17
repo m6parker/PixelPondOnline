@@ -1,0 +1,41 @@
+
+
+
+
+
+.top-section{
+    border: 2px solid green;
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar>div{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.bottom-section{
+    border: 2px solid blue;
+}
+
+.info-section{
+    border: 2px solid coral;
+    display: flex;
+}
+
+.info-section img{
+    width: 200px;
+    image-rendering: pixelated;
+    border: 2px solid black;
+    margin: 20px;
+}
