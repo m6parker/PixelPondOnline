@@ -48,9 +48,10 @@ body{
 .info-section{
     border: 2px solid black;
     display: flex;
-    background: #0000005c;
+    background: #0000009e;
     margin: 20px;
     color: white;
+    align-items: center;
 }
 
 .info-section img{
@@ -62,6 +63,12 @@ body{
 
 .info-section .inner-info-section{
     position: relative;
+}
+
+.right-side{
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .download-link{
