@@ -113,7 +113,7 @@ body{
     color: white;
 }
 
-.bottom-connect-section .inner-connect-section a{
+.bottom-connect-section .inner-connect-section a, .inner-info-section a{
     color: aqua;
 }
 
