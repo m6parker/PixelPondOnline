@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 .container{
     background-image: url("img/tileset_map.png");
     position: fixed;
@@ -15,13 +19,18 @@ body{
 
 .top-section{
     /* border: 2px solid green; */
-    text-align: center;
+    align-items: center;
     height: 400px;
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-image: url("img/water_tile.png");
     color: orangered;
+}
+
+.top-section img{
+    image-rendering: pixelated;
+    width: 75%;
 }
 
 .nav-bar{
@@ -80,4 +89,29 @@ body{
     padding: 5px;
     position: absolute;
     /* bottom: 0; */
+}
+
+.bottom-connect-section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-connect-section .inner-connect-section{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    background:#0000009e;
+    padding: 10px;
+    color: white;
+}
+
+.bottom-connect-section .inner-connect-section a{
+    color: aqua;
+}
+
+.github-logo{
+    height: 64px;
+    width: 64px;
 }
