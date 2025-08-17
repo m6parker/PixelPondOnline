@@ -1,36 +1,50 @@
 
+body{
+    margin: 0;
+}
 
-
-
+.container{
+    background-image: url("img/tileset_map.png");
+}
 
 .top-section{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
     height: 400px;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-image: url("img/water_tile.png");
+    color: orangered;
 }
 
 .nav-bar{
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
+    background-color: black;
+
 }
 
 .nav-bar>div{
     padding: 5px;
     width: 200px;
     text-align: center;
+    color: white;
+    cursor: pointer;
 }
 
 .bottom-section{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 20px;
+
 }
 
 .info-section{
-    border: 2px solid coral;
+    border: 2px solid black;
     display: flex;
+    background: #0000005c;
+    margin: 20px;
+    color: white;
 }
 
 .info-section img{
@@ -38,4 +52,19 @@
     image-rendering: pixelated;
     border: 2px solid black;
     margin: 20px;
+}
+
+.info-section .inner-info-section{
+    position: relative;
+}
+
+.download-link{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #525252;
+    background-color: #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    /* bottom: 0; */
 }
